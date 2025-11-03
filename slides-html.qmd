@@ -1,0 +1,29 @@
+---
+title: "Slides Lucia"
+format: revealjs
+editor: visual
+---
+
+## Introduction
+
+My birthday is June 22, and I grew up in Buenos Aires, Argentina. I have leaved in Argentina until I was 23 years old and then I moved to NE, US.
+
+\[![](introduction.jpeg){width="174"}
+
+## Favorite animal
+
+![](Animal.jpeg)
+
+## Scatter plot
+
+```{r}
+banknote <- read.csv("banknote.csv")
+library(ggplot2)
+
+ggplot(data = banknote, aes(x = Bottom, y = Top, color = Status)) + 
+  geom_point()
+```
+
+## Provide a link to your CV, which you will generate in the next part.
+
+http://localhost:6913/web/viewer.html
